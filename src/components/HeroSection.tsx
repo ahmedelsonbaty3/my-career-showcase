@@ -41,14 +41,14 @@ const HeroSection = () => {
             Cairo, Egypt
           </span>
           <a
-            href="mailto:ahmed.m.elsonbaty@gmail.com"
+            href="mailto:ahmadlsonbaty@gmail.com"
             className="flex items-center gap-1.5 hover:text-primary transition-colors"
           >
             <Mail size={14} className="text-primary" />
-            ahmed.m.elsonbaty@gmail.com
+            ahmadlsonbaty@gmail.com
           </a>
           <a
-            href="https://www.linkedin.com/in/ahmed-el-sonbaty-0a4743220"
+            href="https://www.linkedin.com/in/ahmadelsonbaty/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-primary transition-colors"

@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Monitor, Wrench, Languages } from "lucide-react";
+import { Monitor, Wrench, Languages, Code } from "lucide-react";
 
 const skillCategories = [
   {
@@ -13,6 +13,13 @@ const skillCategories = [
       "SCADA Systems",
       "FEA Software",
       "Microsoft Office",
+    ],
+  },
+  {
+    icon: Code,
+    title: "Programming",
+    skills: [
+      "C++ (Embedded Systems)",
     ],
   },
   {
@@ -54,7 +61,7 @@ const SkillsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillCategories.map((cat, i) => (
             <motion.div
               key={i}

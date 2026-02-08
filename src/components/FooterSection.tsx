@@ -37,20 +37,20 @@ const FooterSection = () => {
             {
               icon: Mail,
               label: "Email",
-              value: "ahmed.m.elsonbaty@gmail.com",
-              href: "mailto:ahmed.m.elsonbaty@gmail.com",
+              value: "ahmadlsonbaty@gmail.com",
+              href: "mailto:ahmadlsonbaty@gmail.com",
             },
             {
               icon: Phone,
               label: "Phone",
-              value: "+20 1069 419 901",
-              href: "tel:+201069419901",
+              value: "+20 106 008 9940",
+              href: "tel:+201060089940",
             },
             {
               icon: Linkedin,
               label: "LinkedIn",
               value: "Ahmed El-Sonbaty",
-              href: "https://www.linkedin.com/in/ahmed-el-sonbaty-0a4743220",
+              href: "https://www.linkedin.com/in/ahmadelsonbaty/",
             },
             {
               icon: MapPin,
